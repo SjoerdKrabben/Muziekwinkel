@@ -36,21 +36,21 @@ function showRelatedProducts($id, $db) {
     <!--MAIN CONTENT-->
 
 		<div class="content">
-			<h1><?php echo $cproduct['PRODUCTNAAM']; ?></h1>
+			<h1><?php echo $cproduct['product_name']; ?></h1>
 						<div class="product_img">
-							<img src="<?php echo $cproduct['AFBEELDING_GROOT']; ?>" alt="<?php echo $cproduct['PRODUCTNAAM']; ?>">
+							<img src="<?php echo $cproduct['product_img']; ?>" alt="<?php echo $cproduct['product_name']; ?>">
 						</div>
 						<div class="product_specs">
 							<h2>Specificaties:</h2>
 							<ul>
-								<?php echo $cproduct['OMSCHRIJVING']; ?>
+								<?php echo $cproduct['product_info']; ?>
 							</ul>
 						</div>
 						<div class="product_cartadd">
 							<a href="winkelwagen.php?add=">Aan winkelwagen toevoegen<br /><img src="images/winkelwagen.gif" alt="winkelwagen"></a>
 						</div>
 						<div class="product_price">
-							Prijs: &euro;<?php echo $cproduct['PRIJS']; ?>
+							Prijs: &euro;<?php echo $cproduct['product_price']; ?>
 						</div>
             <?php echo showRelatedProducts($_GET['id'], $conn); ?>
         </div>

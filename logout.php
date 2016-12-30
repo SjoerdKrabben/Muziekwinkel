@@ -7,7 +7,7 @@ if (isset($_SESSION['username'])) {
 else {
     $msg = "LOG-OUT ERROR, could not log out!";
 }
-$url = "http://localhost/GIG-Store/index.php";
+$url = "http://localhost/Muziekwinkel/index.php";
 header("Refresh: 5; URL = ".$url);
 
 ?>
