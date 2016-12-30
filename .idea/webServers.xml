@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a362d8da-087e-42d6-9cc8-47b3ef66510d" name="debian1@VM" url="http://192.168.211.128/Muziekwinkel/index.php">
+        <fileTransfer host="192.168.211.128" port="21" rootFolder="/home/debian1/public_html/Muziekwinkel" password="df99dfeddf9adfcedfcfdfdfdfd9dfd9dfdfdfc7" username="debian1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4fa1e9df-28d3-464e-b812-0226efaa1ed2" name="Turnkey_debian" url="http://192.168.1.61/Muziekwinkel/index.php">
+        <fileTransfer host="192.168.1.61" port="21" rootFolder="/var/www/Muziekwinkel" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

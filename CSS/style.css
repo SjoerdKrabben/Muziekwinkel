@@ -1,0 +1,615 @@
+body, html	{
+	margin:0;
+	font:1em "Open Sans", sans-serif;
+	background-color:#888;
+}
+
+#wrapper {
+	width: 1000px; 
+	margin:0 auto;
+}
+
+/* - - MENU HEADER - - */
+.mainheader {
+	width:100%;
+	background-color:#000000;
+}
+
+.mainheader img {
+	width: 50%;
+	height: 100%;
+	margin-left:2%;
+}
+
+/* - - LOG IN - - */
+.mainheader form {
+	float:right;
+	margin: 15px 20px 0 20px;
+	color:#FFF;
+}
+
+.logindata {
+	margin-top: 5px;
+    color: #FFFFFF;
+}
+
+.falselogin {
+	font-size: 0.7em;
+	float: left;
+	color:red;
+
+}
+
+.logged-in {
+    margin: 20px;
+    float: right;
+    width: 20%;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.logged-in p {
+    line-height: 30px;
+    text-align: center;
+}
+
+.logged-in a {
+    background-color: #888888;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1px 10px;
+    margin-top: 5px;
+
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+
+}
+
+.mainheader input {
+	float: right;
+	/*margin-top: 5px;*/
+}
+
+.mainheader input[type="password"]:after {
+	clear: right;
+}
+
+.placeButtons {
+	position:relative;
+	margin-right:10px;
+	left: 0px;
+	width:70px;
+}
+
+.textLogin {
+	margin-right:10px;
+	font-size:.7em;
+}
+
+/* - - NAVIGATION MENU - - */
+.nav-main {
+	width:100%;
+	height:40%;
+	background-color:#222;
+	height:70px;
+	color:#fff;
+}
+
+.nav-main .logo {
+	float:left;
+	height:40px;
+	padding:15px 30px;
+	font-size:1.4em;
+	line-height:40px;
+}
+
+.nav-main > ul {
+	height:70px;
+	margin:0;
+	padding:0;
+	float:left;
+	list-style-type:none;
+}
+
+.nav-main > ul > Li {
+	float:left;
+}
+
+.nav-item {
+	display:inline-block;
+	padding:15px 20px;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.nav-item:hover {
+	background-color:#444;
+}
+
+.nav-item:focus {
+	background-color:#444;
+}
+
+.nav-item:focus~ .nav-content {
+	max-height:400px;
+	-webkit-transition:max-height 0.4s ease-in;
+	-moz-transition:max-height 0.4s ease-in;
+	transition:max-height 0.4s ease-in;
+}
+
+.nav-content {
+	position:absolute;
+	overflow:hidden;
+	background-color:#222;
+	max-height:0;
+}
+
+.nav-content:hover {
+    max-height:400px;
+}
+
+.nav-content a {
+	color:#fff;
+	text-decoration:none;
+}
+
+.nav-content a:hover {
+	text-decoration:underline;
+	max-height:400px;
+}
+
+.nav-sub {
+	padding:20px;
+}
+
+.nav-sub ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+.nav-sub ul Li a {
+	display:inline-block;
+	padding:5px 0;
+}
+
+
+/* - - REGISTRATION - - */
+.t_accountgeg  {
+	float:left;
+	min-width:265px;
+	margin:20px 10px 0 20px;
+	padding:10px;
+	background-color: #444;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.fields {
+	color: #000;
+}
+
+.text_form {
+	color: white;
+}
+
+.t_factuurgeg {
+	float:left;
+	margin:20px 10px 0 20px;
+	background-color: #444;
+	padding:10px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.s_fix {
+	position: relative;
+	right: 200px;
+	color: white
+}
+
+.s_fix2 {
+	position: relative;
+	right: 100px;
+	color: white;
+}
+
+.btnRegister {
+    width:100%;
+    height: 40px;
+	float: left;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.btnRegister input {
+    background-color: #444;
+    color: #FFF;
+    border-color: #999;
+    text-decoration: none;
+    width: 15%;
+    height: 100%;
+    margin-right: 10px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+/* - - MAIN CONTENT - - */
+.content{
+	background-color:#666;
+	line-height:25px;
+	float:left;
+	width:70%;
+	padding:30px;
+}
+
+.content h1	{
+	font-size:2em;
+	color:#123456;
+	text-decoration:underline;
+	
+}
+
+.content h2 {
+	font-size:1.2em;
+}
+/* - - NIEUWS PAGINA - - */
+.news1 {
+	padding:1% 4%;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color:#FFFFFF;
+	margin-top:10px;
+	
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.news2 {
+	padding:1% 4%;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color:#FFFFFF;
+	margin-top:10px;
+	
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+/* - - ACTIES - - */
+.actie-product{
+	height:250px;
+	width:180px;
+    padding:10px;
+	
+	background-color:#FFF;
+	
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.actie-product img {
+	height:70%;
+	width:auto;
+}
+
+.acties_tekst{
+	
+}
+
+/* - - OVER ONS PAGINA - - */
+.tabel {
+	width:100%;
+	border-spacing:20px;
+}
+
+.contact1 {
+	width:70%;
+	
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color:#FFFFFF;
+	
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.contact1 h2  {
+	padding:1% 4%;
+}
+
+.contact1 p {
+	padding:1% 4%;
+}
+
+.content iframe {
+  background-color:#FFF;
+  width:180px;
+  height:180px;
+  padding:5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-width:0;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+}
+
+.staff img {
+	background-color:#FFF;
+	height:auto;
+	padding:5px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color:#FFFFFF;
+
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+	width:100%;
+	background-color:#FFF;	
+}
+
+.contact2 {
+	width:200px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color:#FFFFFF;
+
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.contact2 h2  {
+	padding:1% 4%;
+}
+
+.contact2 p {
+	padding:1% 4%;
+}
+
+/* - - WEBSHOP - - */
+.article-grid {
+	width:100%;
+	height:100%;
+	border-spacing:20px;
+	
+}
+
+.product {
+	height:250px;
+	width:200px;
+	padding:10px;
+	
+	background-color:#FFF;
+	
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.product img {
+	margin-left:32%;
+	height:70%;
+	width:auto;
+}
+
+.product_name {
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	color:#000;
+}
+
+.product_name:focus{
+	color: #FF0000;
+}
+
+/* - - PRODUCT PAGINA - - */
+
+.product_img {
+	float:left;
+	width:30%;
+	height:auto;
+	background-color:#FFF;
+	padding:5px;
+		
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.product_img img {
+	height:100%;
+	margin-left: 25px;
+}
+
+.product_specs {
+	background-color:#FFF;
+	width:60%;
+	min-height: 350px;
+	padding:5px 20px;
+	float:left;
+	margin-left:20px;
+	margin-top:25px;
+	margin-bottom:33px;
+	
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.product_price {
+	float:left;
+	width:33%;
+	height:40px;
+	padding-top:15px;
+	margin-top:20px;
+	margin-left:33%;
+	background-color:#FFF;
+	text-align:center;
+	font-weight:bold;
+	font-size:1.6em;
+	
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+}
+
+.product_cartadd {
+	float:left;
+	height:75px;
+	width:15%;
+	background-color:#222;
+	padding:10px;
+	text-align:center;
+	line-height:15px;
+	margin: 30px 0 20px 0;
+	
+	
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+	
+}
+
+.product_cartadd a {
+	font-size:0.7em;
+	text-decoration:none;
+	color:#FFF;
+}
+
+.product_cartadd img {
+	height:50%;
+	margin-left: 10px;
+}
+
+.gerelateerde_producten {
+    float: left;
+    border: 1px solid black;
+    width: 100%;
+    height: 275px;
+    margin: 20px 0;
+}
+
+.gerelateerde_producten td {
+    border: 1px solid black;
+    background-color: #FFF;
+    text-align: center;
+    width: 33%;
+    height: 250px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+
+.gerelateerde_producten a {
+    text-decoration: none;
+    color: #000;
+}
+
+.gerelateerde_producten img {
+    max-height: 155px;
+}
+
+/* - - WINKELWAGEN - - */
+.winkelwagen-totaal tr td{
+	border: solid black 2px;
+	background-color: white;
+}
+
+.winkelwagen-product img{
+	width: 150px;
+	height: 150px;
+}
+/* - - ADVERTISING - - */
+.advertising-main{
+	line-height:25px;
+	float:left;
+	width:20%;
+	padding:10px;
+	margin:30px 10px;
+	background-color:#444;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+.advertising-sub{
+	text-align:center;
+	padding:50% 10px;
+}
+
+.advertising-sub img{
+	height:600px;
+	width: 150px;
+}
+
+/* - - FOOTER - - */
+.mainFooter {
+	width:100%;
+	float:left;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color: #666;
+	margin: 2% 0;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin:2% auto;
+	text-align:right;
+}
