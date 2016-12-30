@@ -7,7 +7,7 @@ if (isset($_POST['username'])) {
     include_once('database.php');
     if ($conn) {
 //        echo "Connection established.<br />";
-        $tsql = "SELECT GEBRUIKERSNAAM, WACHTWOORD from GEBRUIKER WHERE GEBRUIKERSNAAM = ? AND WACHTWOORD = ?";
+        $tsql = "SELECT username, wachtwoord from Users WHERE username = ? AND wachtwoord = ?";
         $result = sqlsrv_query($conn, $tsql, array($username, $password));
         if ($result === false) {
             die(print_r(sqlsrv_errors()));
