@@ -12,6 +12,7 @@ if (isset($_POST['username'])) {
         if ($result === false) {
             die(mysqli_connect_error());
         }
+        printf("Select returned %d rows.\n", mysqli_num_rows($result));
         if (mysqli_num_rows($result) == 1) {
             echo $result;
             mysqli_free_result($result);
