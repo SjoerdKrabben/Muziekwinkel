@@ -7,7 +7,7 @@ $cproduct = getProductInfoById($_GET['id'], $conn);
 
 //Gerelateerde producten
 function showRelatedProducts($id, $db) {
-    $sql = "SELECT * FROM Product WHERE product_id IN (SELECT product_gerelateerd_id FROM Product_Gerelateerd WHERE product_id = ?)";
+    $sql = "SELECT * FROM Muziekwinkel.Product WHERE product_id IN (SELECT product_gerelateerd_id FROM Muziekwinkel.Product_Gerelateerd WHERE product_id = ?)";
     $params = array($id);
     $stmt = mysqli_query($db, $sql, $params);
     echo '<table class="gerelateerde_producten">
