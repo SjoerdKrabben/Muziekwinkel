@@ -19,11 +19,12 @@ if (isset($_POST['username'])) {
         $stmt->bind_result($username);
 
         if ($stmt->fetch()) {
-            mysqli_stmt_free_result($stmt);
-            mysqli_close($conn);
 
             $_SESSION['username'] = $username;
             header('location: ' . ['PHP_SELF']);
+
+            mysqli_stmt_free_result($stmt);
+            mysqli_close($conn);
             exit;
         } else {
             $falselogin = "Username or Password is incorrect.<br/>
