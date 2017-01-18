@@ -10,7 +10,7 @@ $connectionInfo = array("Database" => "Muziekwinkel", "UID" => "root", "PWD"=>"J
 $conn = mysqli_connect($serverName, $connectionInfo);
 
 if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error() . print_r( sqlsrv_errors(), true));
+    die("Connection failed: " . mysqli_connect_error());
 }
 echo "Connected successfully";
 
