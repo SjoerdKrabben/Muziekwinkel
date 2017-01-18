@@ -17,7 +17,7 @@ if(isset($_POST['submit'])) {
 	$pass = strip_tags($_POST["pass"]);
 	$passr = strip_tags($_POST["passr"]);
 
-	if($unaam != null && $vnaam != null && $anaam != null && $adres != null && $woonplaats != null && $mail != null && $geslacht != null) {
+	if($unaam != null && $vnaam != null && $anaam != null && $adres != null && $woonplaats != null && $mail != null) {
 		if ($pass == $passr && $pass != null) {
 			$sql = "INSERT INTO Users VALUES('" . $unaam . "','" . $vnaam . "','" . $tv . "', '" . $anaam . "', '" . $adres . "', " . $woonplaats . ",'" . $mail . "','" . $geslacht . "', '" . $pass . "')";
 			mysqli_query($conn, $sql);
