@@ -6,7 +6,7 @@ if (isset($_POST['username'])) {
 
     include_once('database.php');
     if ($conn) {
-        echo "Connection established.<br />";
+        //echo "Connection established.<br />";
         $tsql = "SELECT username, wachtwoord from Users WHERE username = ? AND wachtwoord = ?";
         $result = mysqli_query($conn, $tsql, array($username, $password));
         if ($result === false) {
@@ -21,6 +21,7 @@ if (isset($_POST['username'])) {
             header("location: user.php");
             exit;
         } else {
+            echo $result;
             $falselogin = "Username or Password is incorrect.<br/>
 		Try again.";
         }
