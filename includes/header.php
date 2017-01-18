@@ -24,7 +24,7 @@ if (isset($_POST['username'])) {
         if ($stmt->fetch()) {
 
             $_SESSION['username'] = $username;
-            header('location: ' . ['PHP_SELF']);
+            header('location: ' . $_SERVER['PHP_SELF']);
             $stmt->close();
 
             mysqli_close($conn);
