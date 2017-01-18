@@ -1,6 +1,6 @@
 <?php
-error_reporting(-1);
 session_start();
+error_reporting(-1);
 if (isset($_POST['username'])) {
     $username = strip_tags($_POST["username"]);
     $password = strip_tags($_POST["password"]);
