@@ -7,7 +7,7 @@ $productsperRow = 3;
 $counter = 0;
 
 
-    while ($cproduct = mysqli_fetch_array($result, SQLSRV_FETCH_ASSOC)) {
+    while ($cproduct = mysqli_fetch_assoc($result)) {
         $returnHTML.= '<td class="product">
         <a href="product.php?id=' . $cproduct['product_id'] . '"><img src="' . $cproduct['product_thumbnail'] . '" alt="' . $cproduct['product_name'] . '"></a>
         <div class="product_name">
@@ -24,7 +24,7 @@ $counter = 0;
 function getProductInfoById($id, $database) {
     $query = mysqli_query($database,"SELECT * FROM Product WHERE product_id = {$_GET['id']}");
 
-    $result = mysqli_fetch_array($query);
+    $result = mysqli_fetch_assoc($query);
     return $result;
 }
 
