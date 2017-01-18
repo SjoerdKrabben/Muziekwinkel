@@ -7,24 +7,47 @@ if (isset($_POST['username'])) {
     include_once('database.php');
     if ($conn) {
         //echo "Connection established.<br />";
-        $tsql = "SELECT username, wachtwoord from Users WHERE username = ? AND wachtwoord = ?";
-        $result = mysqli_query($conn, $tsql, array($username, $password));
-        if ($result === false) {
-            die(mysqli_connect_error());
-        }
-        printf("Select returned %d rows.\n", mysqli_num_rows($result));
-        if (mysqli_num_rows($result) == 1) {
-            echo $result;
-            mysqli_free_result($result);
+
+        $sql = "SELECT username, wachtwoord from Users WHERE username = ? AND wachtwoord = ?";
+        /* create a prepared statement */
+        $stmt = $conn->prepare($sql);
+        /* bind parameters for markers */
+        $stmt->bind_param("ss", $username, $password);
+        /* execute query */
+        $stmt->execute();
+        /* bind result variables */
+        $stmt->bind_result($username);
+
+        if ($stmt->fetch()) {
+            mysqli_stmt_free_result($stmt);
             mysqli_close($conn);
 
             $_SESSION['username'] = $username;
             header('location: ' . ['PHP_SELF']);
             exit;
         } else {
-            echo $username && $password && $result;
             $falselogin = "Username or Password is incorrect.<br/>
 		Try again.";
+        }
+        /* create a prepared statement */
+        if ($stmt = mysqli_prepare($link, "SELECT District FROM City WHERE Name=?")) {
+
+            /* bind parameters for markers */
+            mysqli_stmt_bind_param($stmt, "s", $city);
+
+            /* execute query */
+            mysqli_stmt_execute($stmt);
+
+            /* bind result variables */
+            mysqli_stmt_bind_result($stmt, $district);
+
+            /* fetch value */
+            mysqli_stmt_fetch($stmt);
+
+            printf("%s is in district %s\n", $city, $district);
+
+            /* close statement */
+            mysqli_stmt_close($stmt);
         }
 
     } else {
