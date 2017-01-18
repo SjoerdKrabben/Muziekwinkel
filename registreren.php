@@ -5,11 +5,21 @@ include('includes/header.php');
 $registered = 'Registratie voltooid';
 if(isset($_POST['submit'])) {
 	include_once('includes/database.php');
-	extract($_POST);
+
+	$unaam = strip_tags($_POST["unaam"]);
+	$vnaam = strip_tags($_POST["vnaam"]);
+	$tv = strip_tags($_POST["tv"]);
+	$anaam = strip_tags($_POST["anaam"]);
+	$adres = strip_tags($_POST["adres"]);
+	$woonplaats = strip_tags($_POST["woonplaats"]);
+	$mail = strip_tags($_POST["mail"]);
+	$geslacht = strip_tags($_POST["geslacht"]);
+	$pass = strip_tags($_POST["pass"]);
+	$passr = strip_tags($_POST["passr"]);
+
 	if($pass==$passr) {
-		$sql = "INSERT INTO WEBSHOP.dbo.GEBRUIKER(GEBRUIKERSNAAM,VOORNAAM,TUSSENVOEGSEL,ACHTERNAAM,STRAATNAAM,HUISNUMMER,POSTCODE,WOONPLAATS,EMAIL,SEXE,WACHTWOORD)
-				VALUES('" . $unaam . "','" . $vnaam . "','" . $tv ."', '" . $anaam . "', '" . $straat . "', " . $hn . ",'" . $pc . "','" . $plaats ."', '". $mail . "','" . $geslacht . "', '" . $pass . "')";
-		sqlsrv_query($conn, $sql);
+		$sql = "INSERT INTO Users VALUES('" . $unaam . "','" . $vnaam . "','" . $tv ."', '" . $anaam . "', '" . $adres . "', " . $woonplaats . ",'" . $mail . "','" . $geslacht . "', '" . $pass . "')";
+		mysqli_query($conn, $sql);
 		echo $registered;
 
 	} else {
@@ -67,18 +77,12 @@ if(isset($_POST['submit'])) {
 				<tr class= "tr_acc_fac">
 					<td class= "text_form"> Straatnaam* <br /> 
 						<input type="text" name="straat" maxlength="50" size="20"> </td>
-					<td class= "s_fix2"> Huisnummer* <br /> 
-						<input type="text" name="hn" maxlength="4"  size="10"> </td>
 				</tr>
 				<tr class= "tr_acc_fac">
 					<td class= "text_form"> Postcode* <br /> 
 						<input type="text" name="pc" maxlength="6" size="20"> </td>
 					<td class= "s_fix2"> Plaatsnaam* <br />
 						<input type="text" name="plaats" maxlength="50" size="20"> </td>
-				</tr>
-				<tr class= "tr_acc_fac">
-					<td class= "text_form"> Telefoon* <br /> 
-						<input type="tel" name="tel" maxlength="10" size="20"> </td>
 				</tr>
 			</table>
 		</fieldset>
