@@ -6,7 +6,9 @@ if (isset($_POST['username'])) {
     $password = strip_tags($_POST["password"]);
 
     include_once('database.php');
-        //echo "Connection established.<br />";
+    if($conn) {
+        echo "Connection established.<br />";
+    }
 //        var_dump($conn);
 //        die();
         $sql = "SELECT username, wachtwoord from Users WHERE username = ? AND wachtwoord = ?";
