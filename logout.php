@@ -24,6 +24,6 @@ header("Refresh: 5; URL = ".$url);
 <p>
     Redirecting to homepage in: 5 seconds<?php
     ?><br />
-    <a href="/GIG-store/index.php">Direct link to page</a></p>
+    <a href="Muziekwinkel/index.php">Direct link to page</a></p>
 </body>
 </html>
