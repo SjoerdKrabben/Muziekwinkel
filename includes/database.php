@@ -2,7 +2,7 @@
 
 $userName = "root";
 $password = "JPSm5iau4SFAIr8C";
-$serverName = "localhost";
+$serverName = "localhost\Muziekwinkel";
 
 
 
