@@ -6,6 +6,7 @@ if (isset($_POST['username'])) {
     $password = strip_tags($_POST["password"]);
 
     include_once('database.php');
+
     if($conn) {
         echo "Connection established.<br />";
 //        var_dump($conn);
@@ -22,12 +23,11 @@ if (isset($_POST['username'])) {
 
         if ($stmt->fetch()) {
 
-            mysqli_stmt_free_result($stmt);
-            mysqli_close($conn);
-
             $_SESSION['username'] = $username;
             header('location: ' . ['PHP_SELF']);
+            $stmt->close();
 
+            mysqli_close($conn);
             exit;
         } else {
             $falselogin = "Username or Password is incorrect.<br/>
