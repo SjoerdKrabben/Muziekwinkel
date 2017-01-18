@@ -22,7 +22,7 @@ $counter = 0;
 }
 
 function getProductInfoById($id, $database) {
-    $query = mysqli_query($database,"SELECT * FROM Product WHERE product_id = {$_GET['id']}");
+    $query = mysqli_query($database,"SELECT * FROM Product WHERE product_id = $id");
 
     $result = mysqli_fetch_assoc($query);
     return $result;
