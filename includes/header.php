@@ -17,6 +17,7 @@ if (isset($_POST['username'])) {
         $stmt->execute();
         /* bind result variables */
         $stmt->bind_result($username);
+        echo error_log($msg);
 
         if ($stmt->fetch()) {
 
