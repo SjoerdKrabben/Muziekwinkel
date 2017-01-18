@@ -11,7 +11,7 @@ if (isset($_POST['username'])) {
 //        echo "Connection established.<br />";
 //        var_dump($conn);
 //        die();
-        $sql = "SELECT username, wachtwoord from Users WHERE username = ? AND wachtwoord = ?";
+        $sql = "SELECT username, wachtwoord from Muziekwinkel.Users WHERE username = ? AND wachtwoord = ?";
         /* create a prepared statement */
         $stmt = $conn->prepare($sql);
         /* bind parameters for markers */
