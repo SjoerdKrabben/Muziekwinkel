@@ -8,14 +8,14 @@ if (isset($_POST['username'])) {
     if ($conn) {
 //        echo "Connection established.<br />";
         $tsql = "SELECT username, wachtwoord from Users WHERE username = ? AND wachtwoord = ?";
-        $result = sqlsrv_query($conn, $tsql, array($username, $password));
+        $result = mysqli_query($conn, $tsql, array($username, $password));
         if ($result === false) {
-            die(print_r(sqlsrv_errors()));
+            die(mysqli_connect_error());
         }
-        if (sqlsrv_has_rows($result)) {
+        if (mysqli_num_rows($result) == 1) {
 
-            sqlsrv_free_stmt($result);
-            sqlsrv_close($conn);
+            mysqli_free_result($result);
+            mysqli_close($conn);
 
             $_SESSION['username'] = $username;
             header("location: user.php");
@@ -27,7 +27,7 @@ if (isset($_POST['username'])) {
 
     } else {
         echo "Connection could not be established.<br />";
-        die(print_r(sqlsrv_errors(), true));
+        die(mysqli_connect_error());
     }
 }
 ?>
