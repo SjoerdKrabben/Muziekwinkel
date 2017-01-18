@@ -7,9 +7,9 @@ $cproduct = getProductInfoById($_GET['id'], $conn);
 
 //Gerelateerde producten
 function showRelatedProducts($id, $db) {
-    $sql = "SELECT * FROM WEBSHOP.dbo.PRODUCT WHERE PRODUCTNUMMER IN (SELECT PRODUCTNUMMER_GERELATEERD_PRODUCT FROM WEBSHOP.dbo.PRODUCT_GERELATEERD_PRODUCT WHERE PRODUCTNUMMER = ?)";
+    $sql = "SELECT * FROM Product WHERE product_id IN (SELECT product_gerelateerd_id FROM Product_Gerelateerd WHERE product_id = ?)";
     $params = array($id);
-    $stmt = sqlsrv_query($db, $sql, $params);
+    $stmt = mysqli_query($db, $sql, $params);
     echo '<table class="gerelateerde_producten">
     <tr>
         <th>
@@ -17,11 +17,11 @@ function showRelatedProducts($id, $db) {
         </th>
     </tr>
     <tr>';
-        while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
+        while( $row = mysqli_fetch_array( $stmt, MYSQLI_ASSOC) ) {
         echo '<td>
-            <a href="product.php?id=' . $row["PRODUCTNUMMER"] . '">
-                <h2>' . $row['PRODUCTNAAM'] . '</h2>
-                <img src="' . $row['AFBEELDING_KLEIN'] . '" alt="' .  $row['PRODUCTNAAM'] . '">
+            <a href="product.php?id=' . $row["product_id"] . '">
+                <h2>' . $row['product_name'] . '</h2>
+                <img src="' . $row['product_thumbnail'] . '" alt="' .  $row['product_name'] . '">
             </a>
         </td>
         ';
