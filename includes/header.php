@@ -18,10 +18,10 @@ if (isset($_POST['username'])) {
             mysqli_close($conn);
 
             $_SESSION['username'] = $username;
-            header("location: user.php");
+            header('location: ' . ['PHP_SELF']);
             exit;
         } else {
-            echo $result;
+            echo $username && $password && $result;
             $falselogin = "Username or Password is incorrect.<br/>
 		Try again.";
         }
