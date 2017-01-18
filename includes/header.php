@@ -8,7 +8,8 @@ if (isset($_POST['username'])) {
     include_once('database.php');
     if ($conn) {
         //echo "Connection established.<br />";
-
+        var_dump($conn);
+        die();
         $sql = "SELECT username, wachtwoord from Users WHERE username = ? AND wachtwoord = ?";
         /* create a prepared statement */
         $stmt = $conn->prepare($sql);
