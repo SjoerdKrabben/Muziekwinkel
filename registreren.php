@@ -17,13 +17,17 @@ if(isset($_POST['submit'])) {
 	$pass = strip_tags($_POST["pass"]);
 	$passr = strip_tags($_POST["passr"]);
 
-	if($pass==$passr) {
-		$sql = "INSERT INTO Users VALUES('" . $unaam . "','" . $vnaam . "','" . $tv ."', '" . $anaam . "', '" . $adres . "', " . $woonplaats . ",'" . $mail . "','" . $geslacht . "', '" . $pass . "')";
-		mysqli_query($conn, $sql);
-		echo $registered;
-
-	} else {
-		echo 'Wachtwoorden komen niet overeen.';
+	if($unaam != null && $vnaam != null && $anaam != null && $adres != null && $woonplaats != null && $mail != null && $geslacht != null) {
+		if ($pass == $passr && $pass != null) {
+			$sql = "INSERT INTO Users VALUES('" . $unaam . "','" . $vnaam . "','" . $tv . "', '" . $anaam . "', '" . $adres . "', " . $woonplaats . ",'" . $mail . "','" . $geslacht . "', '" . $pass . "')";
+			mysqli_query($conn, $sql);
+			echo $registered;
+		} else {
+			echo 'Wachtwoorden komen niet overeen.';
+		}
+	}
+	else {
+		echo 'Vul alle velden met * in!';
 	}
 }
 
