@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c6d2bf5-778b-489e-9c63-5be7bd41e140" name="Default" comment="">
+    <list default="true" id="3c6d2bf5-778b-489e-9c63-5be7bd41e140" name="Default" comment="more database call changes">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logout.php" afterPath="$PROJECT_DIR$/logout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.php" afterPath="$PROJECT_DIR$/product.php" />
     </list>
     <ignored path="GIG-Store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="-202">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -38,58 +37,80 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="221">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
               <folding>
-                <marker date="1483130899759" expanded="true" signature="269:345" ph="SELECT usern... Users" />
+                <marker date="1484774800974" expanded="true" signature="333:422" ph="SELECT usern... Users" />
+                <marker date="1484774800974" expanded="true" signature="1202:1271" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="1202:1626" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="1209:1271" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="1422:1626" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="1441:1626" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="1492:1626" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="1706:2579" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="1733:2579" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="1823:1995" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="2039:2216" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="2260:2535" ph="..." />
+                <marker date="1484774800974" expanded="true" signature="2844:2894" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyboards.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keyboards.php">
+      <file leaf-file-name="registreren.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registreren.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="19" column="115" selection-start-line="19" selection-start-column="115" selection-end-line="19" selection-end-column="115" />
+              <folding>
+                <marker date="1484759413592" expanded="true" signature="772:955" ph="INSERT INTO Users... " />
+                <marker date="1484759413592" expanded="true" signature="1269:1303" ph="..." />
+                <marker date="1484759413592" expanded="true" signature="1284:1303" ph="..." />
+                <marker date="1484759413592" expanded="true" signature="1868:1907" ph="..." />
+                <marker date="1484759413592" expanded="true" signature="1876:1907" ph="..." />
+                <marker date="1484759413592" expanded="true" signature="1889:1907" ph="..." />
+                <marker date="1484759413592" expanded="true" signature="2020:2040" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logout.php">
+      <file leaf-file-name="HeaderNotLogged.php" pinned="false" current-in-tab="false">
+        <entry file="file://C:/xampp/htdocs/I-Project/Pages/HeaderNotLogged.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="1054">
+              <caret line="71" column="52" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="52" />
+              <folding>
+                <marker date="1452508903920" expanded="true" signature="374:466" ph="SELECT Gebru... Gebruiker" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding>
-                <marker date="1483129773310" expanded="true" signature="294:462" ph="..." />
-                <marker date="1483129773310" expanded="true" signature="352:461" ph="..." />
-                <marker date="1483129773310" expanded="true" signature="584:685" ph="..." />
-                <marker date="1483129773310" expanded="true" signature="593:676" ph="..." />
-                <marker date="1483129773310" expanded="true" signature="606:666" ph="..." />
-                <marker date="1483129773310" expanded="true" signature="779:1027" ph="..." />
-                <marker date="1483129773310" expanded="true" signature="847:1013" ph="..." />
+                <marker date="1484775146211" expanded="true" signature="294:439" ph="..." />
+                <marker date="1484775146211" expanded="true" signature="350:438" ph="..." />
+                <marker date="1484775146211" expanded="true" signature="561:662" ph="..." />
+                <marker date="1484775146211" expanded="true" signature="570:653" ph="..." />
+                <marker date="1484775146211" expanded="true" signature="583:643" ph="..." />
+                <marker date="1484775146211" expanded="true" signature="735:983" ph="..." />
+                <marker date="1484775146211" expanded="true" signature="800:969" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shoppingcartfunctions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/shoppingcartfunctions.php">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -98,39 +119,44 @@
       <file leaf-file-name="gitaren.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gitaren.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/database.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="advertisements.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/advertisements.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.php">
+      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drums.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drums.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="408">
+              <caret line="24" column="84" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+              <folding>
+                <marker date="1484756815334" expanded="true" signature="63:114" ph="SELECT * FRO... Product" />
+                <marker date="1484756815334" expanded="true" signature="311:639" ph="..." />
+                <marker date="1484756815334" expanded="true" signature="506:634" ph="..." />
+                <marker date="1484756815334" expanded="true" signature="889:930" ph="SELECT * FRO... Product" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,17 +194,17 @@
         <option value="$PROJECT_DIR$/basgitaren.php" />
         <option value="$PROJECT_DIR$/shoppingcart.php" />
         <option value="$PROJECT_DIR$/includes/shoppingcartfunctions.php" />
-        <option value="$PROJECT_DIR$/registreren.php" />
         <option value="$PROJECT_DIR$/winkelwagen.php" />
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/includes/footer.php" />
-        <option value="$PROJECT_DIR$/includes/database.php" />
         <option value="&lt;a362d8da-087e-42d6-9cc8-47b3ef66510d&gt;/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/includes/product.php" />
-        <option value="$PROJECT_DIR$/product.php" />
         <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/includes/product.php" />
+        <option value="$PROJECT_DIR$/registreren.php" />
+        <option value="$PROJECT_DIR$/includes/database.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/product.php" />
       </list>
     </option>
   </component>
@@ -195,7 +221,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -224,7 +250,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,13 +284,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11/cmd/git.exe" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/I-Project/Pages/HeaderNotLogged.php" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -291,6 +317,9 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -324,6 +353,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.index.php" />
@@ -348,61 +390,373 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1443598703982</updated>
-      <workItem from="1483130702100" duration="376000" />
+      <workItem from="1483130702100" duration="586000" />
+      <workItem from="1484172567529" duration="817000" />
+      <workItem from="1484745553619" duration="20142000" />
     </task>
+    <task id="LOCAL-00001" summary="more database call changes">
+      <created>1483131130629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1483131130629</updated>
+    </task>
+    <task id="LOCAL-00002" summary="more database call changes">
+      <created>1484172768668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484172768668</updated>
+    </task>
+    <task id="LOCAL-00003" summary="more database call changes">
+      <created>1484746385238</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484746385238</updated>
+    </task>
+    <task id="LOCAL-00004" summary="more database call changes">
+      <created>1484746493680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484746493680</updated>
+    </task>
+    <task id="LOCAL-00005" summary="more database call changes">
+      <created>1484746587169</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1484746587169</updated>
+    </task>
+    <task id="LOCAL-00006" summary="more database call changes">
+      <created>1484746718717</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1484746718717</updated>
+    </task>
+    <task id="LOCAL-00007" summary="more database call changes">
+      <created>1484746786845</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1484746786845</updated>
+    </task>
+    <task id="LOCAL-00008" summary="more database call changes">
+      <created>1484746813089</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1484746813089</updated>
+    </task>
+    <task id="LOCAL-00009" summary="more database call changes">
+      <created>1484747040882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1484747040882</updated>
+    </task>
+    <task id="LOCAL-00010" summary="more database call changes">
+      <created>1484747337150</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1484747337150</updated>
+    </task>
+    <task id="LOCAL-00011" summary="more database call changes">
+      <created>1484747395880</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1484747395880</updated>
+    </task>
+    <task id="LOCAL-00012" summary="more database call changes">
+      <created>1484747558266</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1484747558266</updated>
+    </task>
+    <task id="LOCAL-00013" summary="more database call changes">
+      <created>1484747641946</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1484747641946</updated>
+    </task>
+    <task id="LOCAL-00014" summary="more database call changes">
+      <created>1484748064866</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1484748064866</updated>
+    </task>
+    <task id="LOCAL-00015" summary="more database call changes">
+      <created>1484748261798</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1484748261798</updated>
+    </task>
+    <task id="LOCAL-00016" summary="more database call changes">
+      <created>1484748894323</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1484748894323</updated>
+    </task>
+    <task id="LOCAL-00017" summary="more database call changes">
+      <created>1484751203738</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1484751203738</updated>
+    </task>
+    <task id="LOCAL-00018" summary="more database call changes">
+      <created>1484752162147</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1484752162147</updated>
+    </task>
+    <task id="LOCAL-00019" summary="more database call changes">
+      <created>1484753829489</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1484753829489</updated>
+    </task>
+    <task id="LOCAL-00020" summary="more database call changes">
+      <created>1484756856694</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1484756856694</updated>
+    </task>
+    <task id="LOCAL-00021" summary="more database call changes">
+      <created>1484757051562</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1484757051562</updated>
+    </task>
+    <task id="LOCAL-00022" summary="more database call changes">
+      <created>1484757155737</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1484757155737</updated>
+    </task>
+    <task id="LOCAL-00023" summary="more database call changes">
+      <created>1484757643729</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1484757643729</updated>
+    </task>
+    <task id="LOCAL-00024" summary="more database call changes">
+      <created>1484758858987</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1484758858987</updated>
+    </task>
+    <task id="LOCAL-00025" summary="more database call changes">
+      <created>1484759199424</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1484759199424</updated>
+    </task>
+    <task id="LOCAL-00026" summary="more database call changes">
+      <created>1484759417176</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1484759417176</updated>
+    </task>
+    <task id="LOCAL-00027" summary="more database call changes">
+      <created>1484760206106</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1484760206106</updated>
+    </task>
+    <task id="LOCAL-00028" summary="more database call changes">
+      <created>1484771418914</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1484771418914</updated>
+    </task>
+    <task id="LOCAL-00029" summary="more database call changes">
+      <created>1484771479311</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1484771479311</updated>
+    </task>
+    <task id="LOCAL-00030" summary="more database call changes">
+      <created>1484771584073</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1484771584073</updated>
+    </task>
+    <task id="LOCAL-00031" summary="more database call changes">
+      <created>1484772208503</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1484772208503</updated>
+    </task>
+    <task id="LOCAL-00032" summary="more database call changes">
+      <created>1484772295515</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1484772295515</updated>
+    </task>
+    <task id="LOCAL-00033" summary="more database call changes">
+      <created>1484772346555</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1484772346555</updated>
+    </task>
+    <task id="LOCAL-00034" summary="more database call changes">
+      <created>1484772455106</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1484772455106</updated>
+    </task>
+    <task id="LOCAL-00035" summary="more database call changes">
+      <created>1484773253428</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1484773253428</updated>
+    </task>
+    <task id="LOCAL-00036" summary="more database call changes">
+      <created>1484773687074</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1484773687074</updated>
+    </task>
+    <task id="LOCAL-00037" summary="more database call changes">
+      <created>1484773744903</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1484773744903</updated>
+    </task>
+    <task id="LOCAL-00038" summary="more database call changes">
+      <created>1484773850571</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1484773850571</updated>
+    </task>
+    <task id="LOCAL-00039" summary="more database call changes">
+      <created>1484773904255</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1484773904255</updated>
+    </task>
+    <task id="LOCAL-00040" summary="more database call changes">
+      <created>1484774051059</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1484774051059</updated>
+    </task>
+    <task id="LOCAL-00041" summary="more database call changes">
+      <created>1484774113499</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1484774113499</updated>
+    </task>
+    <task id="LOCAL-00042" summary="more database call changes">
+      <created>1484774193259</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1484774193259</updated>
+    </task>
+    <task id="LOCAL-00043" summary="more database call changes">
+      <created>1484774490045</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1484774490045</updated>
+    </task>
+    <task id="LOCAL-00044" summary="more database call changes">
+      <created>1484774587084</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1484774587084</updated>
+    </task>
+    <task id="LOCAL-00045" summary="more database call changes">
+      <created>1484774644166</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1484774644166</updated>
+    </task>
+    <task id="LOCAL-00046" summary="more database call changes">
+      <created>1484774804698</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1484774804698</updated>
+    </task>
+    <task id="LOCAL-00047" summary="more database call changes">
+      <created>1484775034160</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1484775034160</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376000" />
+    <option name="totallyTimeSpent" value="21545000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.50416666" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.49580714" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5041929" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49583334" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12997903" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.49583334" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.49583334" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.49583334" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.49583334" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.088541664" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -415,6 +769,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="more database call changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="more database call changes" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="7" />
@@ -422,41 +780,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -639,13 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registreren.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -672,27 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/advertisements.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="83" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -727,18 +1022,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitaren.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keyboards.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/I-Project/PhpFunc/DatabaseConnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Murat/Yazilim/Producten.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Murat/Yazilim/css/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Murat/Yazilim/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="13" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -751,58 +1078,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product.php">
+    <entry file="file://$PROJECT_DIR$/gitaren.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <marker date="1483129773310" expanded="true" signature="294:462" ph="..." />
-            <marker date="1483129773310" expanded="true" signature="352:461" ph="..." />
-            <marker date="1483129773310" expanded="true" signature="584:685" ph="..." />
-            <marker date="1483129773310" expanded="true" signature="593:676" ph="..." />
-            <marker date="1483129773310" expanded="true" signature="606:666" ph="..." />
-            <marker date="1483129773310" expanded="true" signature="779:1027" ph="..." />
-            <marker date="1483129773310" expanded="true" signature="847:1013" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="238">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="-202">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/advertisements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="84" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+          <folding>
+            <marker date="1484756815334" expanded="true" signature="63:114" ph="SELECT * FRO... Product" />
+            <marker date="1484756815334" expanded="true" signature="311:639" ph="..." />
+            <marker date="1484756815334" expanded="true" signature="506:634" ph="..." />
+            <marker date="1484756815334" expanded="true" signature="889:930" ph="SELECT * FRO... Product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/I-Project/Pages/HeaderNotLogged.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="71" column="52" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="52" />
+          <folding>
+            <marker date="1452508903920" expanded="true" signature="374:466" ph="SELECT Gebru... Gebruiker" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="221">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
           <folding>
-            <marker date="1483130899759" expanded="true" signature="269:345" ph="SELECT usern... Users" />
+            <marker date="1484774800974" expanded="true" signature="333:422" ph="SELECT usern... Users" />
+            <marker date="1484774800974" expanded="true" signature="1202:1271" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="1202:1626" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="1209:1271" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="1422:1626" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="1441:1626" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="1492:1626" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="1706:2579" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="1733:2579" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="1823:1995" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="2039:2216" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="2260:2535" ph="..." />
+            <marker date="1484774800974" expanded="true" signature="2844:2894" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registreren.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="115" selection-start-line="19" selection-start-column="115" selection-end-line="19" selection-end-column="115" />
+          <folding>
+            <marker date="1484759413592" expanded="true" signature="772:955" ph="INSERT INTO Users... " />
+            <marker date="1484759413592" expanded="true" signature="1269:1303" ph="..." />
+            <marker date="1484759413592" expanded="true" signature="1284:1303" ph="..." />
+            <marker date="1484759413592" expanded="true" signature="1868:1907" ph="..." />
+            <marker date="1484759413592" expanded="true" signature="1876:1907" ph="..." />
+            <marker date="1484759413592" expanded="true" signature="1889:1907" ph="..." />
+            <marker date="1484759413592" expanded="true" signature="2020:2040" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <marker date="1484775146211" expanded="true" signature="294:439" ph="..." />
+            <marker date="1484775146211" expanded="true" signature="350:438" ph="..." />
+            <marker date="1484775146211" expanded="true" signature="561:662" ph="..." />
+            <marker date="1484775146211" expanded="true" signature="570:653" ph="..." />
+            <marker date="1484775146211" expanded="true" signature="583:643" ph="..." />
+            <marker date="1484775146211" expanded="true" signature="735:983" ph="..." />
+            <marker date="1484775146211" expanded="true" signature="800:969" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAA4O67N7kx0218FXViE1h3T9Qb2qdtChEFBO4xD2/I0fntQsoKiUAraca8p2yL1Txjp8WIUSYuBYsmgOP/0RZ41Vt6QMviAf6L1ZMHkD9gTwsgtHgDOBaYvObgqIAj7OOB7mP/kyWVh2RM4BZDmsg1VnGHTkfxRTyVrta7AaRLwrGzI37TXPL9DSc//9DsbeVL/ffb51wVivRSLo2PXkhT5wo3SZ5p8wlVaxq8ji4/awZ19D14zHmD0xQ3UvjqmgGr9qX764fLL+qMRHWIZMRSSpC7h9v/ljHxQq9nLgsMqK04q6tBxx12OFmyMBJAqzrwzg==</data>
+    <data>AAAA4ClPAuTTVLodZ1JOJBsv/WzSzbcuuTh282B+ZD36LMb1QuxuymkDx8vbRKiSpFqNPUjphNwbaFZARVFDRhIQ/GaQRZRAj8Zo37Npx7IBBa6E4U7nUgDG9jp3mymV2RiOFi7fRTs+6ZHTYggKGxxYMw979d7TngDOPv3kKXfOmO35FJkE802xWuLXeYkegFagF0UH/WfKeHpu4SV4bsnYtgi0Y5zM8XmcI9rDQkMI2ZTLfNI79ybIbPs2wSqiwd+SgIdq1sR+ZzUkuvU5MIqsHn3GVCOUeyGEJRwB6TjyiQLatzGa7Y4lFI6JdHwWpz88zA==</data>
   </component>
 </project>

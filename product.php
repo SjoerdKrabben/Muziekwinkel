@@ -17,7 +17,7 @@ function showRelatedProducts($id, $db) {
         </th>
     </tr>
     <tr>';
-        while( $row = mysqli_fetch_array( $stmt, MYSQLI_ASSOC) ) {
+        while( $row = mysqli_fetch_assoc($stmt) ) {
         echo '<td>
             <a href="product.php?id=' . $row["product_id"] . '">
                 <h2>' . $row['product_name'] . '</h2>
