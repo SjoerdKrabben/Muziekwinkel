@@ -1,6 +1,6 @@
 <?php
-session_start();
 error_reporting(-1);
+session_start();
 if (isset($_POST['username'])) {
     $username = strip_tags($_POST["username"]);
     $password = strip_tags($_POST["password"]);
@@ -22,11 +22,12 @@ if (isset($_POST['username'])) {
 
         if ($stmt->fetch()) {
 
+            mysqli_stmt_free_result($stmt);
+            mysqli_close($conn);
+
             $_SESSION['username'] = $username;
             header('location: ' . ['PHP_SELF']);
 
-            mysqli_stmt_free_result($stmt);
-            mysqli_close($conn);
             exit;
         } else {
             $falselogin = "Username or Password is incorrect.<br/>
