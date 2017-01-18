@@ -1,4 +1,5 @@
 <?php
+error_reporting(1);
 session_start();
 if (isset($_POST['username'])) {
     $username = strip_tags($_POST["username"]);
@@ -17,7 +18,6 @@ if (isset($_POST['username'])) {
         $stmt->execute();
         /* bind result variables */
         $stmt->bind_result($username);
-        echo error_log($msg);
 
         if ($stmt->fetch()) {
 
