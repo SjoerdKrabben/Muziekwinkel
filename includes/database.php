@@ -2,7 +2,7 @@
 
 $userName = "root";
 $password = "JPSm5iau4SFAIr8C";
-$serverName = "127.0.0.1:3306/Muziekwinkel";
+$serverName = "127.0.0.1:3306";
 
 
 
