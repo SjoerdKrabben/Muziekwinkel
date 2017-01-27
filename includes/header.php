@@ -95,7 +95,7 @@ if (isset($_POST['username'])) {
     </header>
 
     <nav class="nav-main">
-        <div class="logo">Hallo Rob</div>
+        <div class="logo">GIG-Store</div>
         <ul>
             <li>
                 <a href="index.php" class="nav-item">Nieuws</a>
